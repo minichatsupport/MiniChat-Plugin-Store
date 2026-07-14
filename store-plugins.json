@@ -12,7 +12,7 @@
     "downloads": 0,
     "sha256": "3b9fcef2d2f697ef485410b9f092617b61f8f1df83429f6361bc5f6a9a368b38",
     "sizeBytes": 2025,
-    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/minichat-plugins/main/plugins/com.minichat.example.aichat-1.0.0.mcplugin",
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.example.aichat-1.0.0.mcplugin",
     "revoked": false
   },
   {
@@ -28,7 +28,7 @@
     "downloads": 0,
     "sha256": "2ee1c9ec8e65067fdab75b51500cb38e1588755a395a027e9a959cdd4bc44115",
     "sizeBytes": 1978,
-    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/minichat-plugins/main/plugins/com.amoria.cyberglow-1.2.0.mcplugin",
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.amoria.cyberglow-1.2.0.mcplugin",
     "revoked": false
   },
   {
@@ -44,7 +44,7 @@
     "downloads": 0,
     "sha256": "c10cf4831a21410e503b7baf8bbc55ac5a3312feb93071be5df31423979e258e",
     "sizeBytes": 1846,
-    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/minichat-plugins/main/plugins/com.amoria.fancytext-1.0.0.mcplugin",
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.amoria.fancytext-1.0.0.mcplugin",
     "revoked": false
   },
   {
@@ -60,7 +60,7 @@
     "downloads": 0,
     "sha256": "f4415c06b752b1d9a5ad09bc7f2e533b89faabdf2742860229799ab01a6ab6f6",
     "sizeBytes": 1251,
-    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/minichat-plugins/main/plugins/com.minichat.example.dicebot-1.1.0.mcplugin",
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.example.dicebot-1.1.0.mcplugin",
     "revoked": false
   },
   {
@@ -76,7 +76,7 @@
     "downloads": 0,
     "sha256": "1c24ec1c0577b7317cbecc85db6f634edf8708663248604a4548e72bc8b2ccad",
     "sizeBytes": 853,
-    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/minichat-plugins/main/plugins/com.minichat.example.midnight-1.0.0.mcplugin",
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.example.midnight-1.0.0.mcplugin",
     "revoked": false
   },
   {
@@ -92,7 +92,7 @@
     "downloads": 0,
     "sha256": "fefae17befc50d750f9fb53a0567c5ab7c4b2d7edb643c33374267c30099372a",
     "sizeBytes": 702,
-    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/minichat-plugins/main/plugins/com.minichat.example.hello-1.0.0.mcplugin",
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.example.hello-1.0.0.mcplugin",
     "revoked": false
   }
 ]

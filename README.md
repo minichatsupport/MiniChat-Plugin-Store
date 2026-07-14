@@ -42,7 +42,7 @@ mcplugin package mein-plugin/ plugins/com.example.mein-1.0.0.mcplugin
 
 # 2. Katalogzeile erzeugen und in store-plugins.json einfügen/ersetzen
 mcplugin catalog-entry plugins/com.example.mein-1.0.0.mcplugin `
-  https://raw.githubusercontent.com/minichatsupport/minichat-plugins/main/plugins/com.example.mein-1.0.0.mcplugin
+  https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.example.mein-1.0.0.mcplugin
 
 # 3. Index neu signieren (Keyfile liegt außerhalb jedes Repos!)
 mcplugin sign-index store-plugins.json C:\Users\...\minichat-secrets\store-signing-key.txt store-index.json
