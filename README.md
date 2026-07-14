@@ -51,6 +51,15 @@ mcplugin sign-index store-plugins.json C:\Users\...\minichat-secrets\store-signi
 git add -A ; git commit -m "store: mein-plugin 1.0.0" ; git push
 ```
 
+## Icons & Bewertungen
+
+- **`icons/<id>.png`** + `iconUrl` im Katalog = Artwork im Store. Dieselbe
+  `icon.png` gehört auch ins Plugin-Paket (Root), dann zeigt sie der
+  Plugin-Manager nach der Installation.
+- **`rating` / `ratingCount`** sind aktuell **kuratierte Werte** — es gibt
+  keinen Server, der echte User-Bewertungen sammeln könnte. Sobald das Backend
+  läuft, liefert es echte Werte über dieselben Felder.
+
 ## Ein Plugin sperren (Killswitch)
 
 In `store-plugins.json` beim Eintrag `"revoked": true` setzen → Schritt 3 + 4
