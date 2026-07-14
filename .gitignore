@@ -1,0 +1,5 @@
+# Der Signierschlüssel darf NIE in dieses Repo — zur Sicherheit geblockt,
+# falls er versehentlich hierher kopiert wird.
+store-signing-key*
+*.key
+*secret*
