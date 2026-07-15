@@ -7,7 +7,11 @@
     "description": "Tippe @ai <Frage> in einem Chat und Mia antwortet direkt in die Unterhaltung. @ai reset löscht ihr Gedächtnis für diesen Chat. Eigener API-Key nötig (Plugins → AI key).",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["chat.read", "chat.send", "ai"],
+    "permissions": [
+      "chat.read",
+      "chat.send",
+      "ai"
+    ],
     "category": "ai",
     "downloads": 0,
     "sha256": "263ce28a71500f081925e29d01b2a0f74886e8bd4b539394834e77c2b81d92ce",
@@ -26,7 +30,11 @@
     "description": "Nachricht gedrückt halten → 🌐 Übersetzen: Deutsch↔Englisch (andere Sprachen → Deutsch) direkt im Chat, per AI. Eigener API-Key nötig (Plugins → AI key).",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["ui", "chat.send", "ai"],
+    "permissions": [
+      "ui",
+      "chat.send",
+      "ai"
+    ],
     "category": "ai",
     "downloads": 0,
     "sha256": "d4a9d4c95a29670c3e2233d18ac5cbfc99cd09f3b28046c04b03953113a7135f",
@@ -45,7 +53,12 @@
     "description": "Cyber-Glow Theme + Verschlüsselte Noise-Messages, die sich für 3 Sekunden enthüllen lassen.",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["ui", "chat.send", "chat.read", "theme"],
+    "permissions": [
+      "ui",
+      "chat.send",
+      "chat.read",
+      "theme"
+    ],
     "category": "theme",
     "downloads": 0,
     "sha256": "b89398b5185b984ded5572c2d09865cc422b8f3213f1a19566d40331f547f1d2",
@@ -64,7 +77,11 @@
     "description": "Schaltet das exklusive 'Cyber-Glow' Liquid-Glass-Theme frei und fügt nützliche Quanten- und System-Tools hinzu.",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["ui", "chat.send", "theme"],
+    "permissions": [
+      "ui",
+      "chat.send",
+      "theme"
+    ],
     "category": "tools",
     "downloads": 0,
     "sha256": "0235d839b2ceef70d87e0bfdf8abac64024aa6eb22c9ebf9f9e4aafa9c83ea15",
@@ -83,7 +100,10 @@
     "description": "Das magische 8-Ball-Orakel: /orakel <Frage> tippen oder den 🎱-Button im +-Menü drücken — das Schicksal antwortet in den Chat.",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["ui", "chat.send"],
+    "permissions": [
+      "ui",
+      "chat.send"
+    ],
     "category": "fun",
     "downloads": 0,
     "sha256": "b2399b5853105f5b5a97b08b326969d4f822bf07b33efd404fc3eb4eb40552de",
@@ -102,7 +122,11 @@
     "description": "Würfel-Command (/dice) und Ping-Pong-Autoresponder — das M2-Demo-Plugin.",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["ui", "chat.read", "chat.send"],
+    "permissions": [
+      "ui",
+      "chat.read",
+      "chat.send"
+    ],
     "category": "fun",
     "downloads": 0,
     "sha256": "469f40b62f159dd0117bd849d2ca690f1a67cc170ec758c4f8e01811b17fbe0e",
@@ -121,7 +145,9 @@
     "description": "Zwei Kirschblüten-Themes: Sakura Day (zartes Rosa mit Bubbles) und Sakura Night (dunkles Pflaumenlila mit Aurora).",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["theme"],
+    "permissions": [
+      "theme"
+    ],
     "category": "theme",
     "downloads": 0,
     "sha256": "ee814dd6f5a8eff4ecea346ce76b2cbcf04c2ee3ff2769fb3f628a93bc2a4487",
@@ -140,7 +166,9 @@
     "description": "Zwei Meeres-Themes: Ocean Depths (tiefes Blau mit Plexus-Netz) und Ocean Surface (helles Türkis mit Warp-Effekt).",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["theme"],
+    "permissions": [
+      "theme"
+    ],
     "category": "theme",
     "downloads": 0,
     "sha256": "c742de9375d15acace6aff5e6d64d834d9873b59e359653a48519af25e96e0be",
@@ -159,7 +187,9 @@
     "description": "Zwei Abendhimmel-Themes: Sunset Gold (warmes Orange mit Farbwechsel) und Sunset Violet (violette Dämmerung mit Aurora).",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["theme"],
+    "permissions": [
+      "theme"
+    ],
     "category": "theme",
     "downloads": 0,
     "sha256": "220636d81bb55efbfeef50dc5b3727606ee4e1eea68506275158dc7f71ff32fa",
@@ -178,7 +208,9 @@
     "description": "Dunkles Theme-Paket mit Aurora-Animation — das M3-Theme-Demo-Plugin.",
     "apiVersion": 1,
     "minAppVersion": 31,
-    "permissions": ["theme"],
+    "permissions": [
+      "theme"
+    ],
     "category": "theme",
     "downloads": 0,
     "sha256": "7825c077b132d644142723a17f80c23dc135f013a27e145565f7039be45fc7b5",
@@ -207,5 +239,92 @@
     "iconUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/icons/com.minichat.example.hello.png",
     "rating": 4.9,
     "ratingCount": 3
+  },
+  {
+    "id": "com.minichat.fun.coinflip",
+    "name": "Coin Flip & Zufall",
+    "version": "1.0.0",
+    "author": "MiniChat Team",
+    "description": "Entscheidungshelfer: /flip wirft eine Münze, /pick Pizza, Sushi, Döner wählt zufällig aus, /random 1-100 zieht eine Zahl. Plus 🪙-Button im +-Menü.",
+    "apiVersion": 1,
+    "minAppVersion": 31,
+    "permissions": [
+      "ui",
+      "chat.send"
+    ],
+    "category": "fun",
+    "downloads": 0,
+    "sha256": "e4eb6565ef53c00a59df11066d7bc5ca821956caba557394bfb7f6a1a6c46022",
+    "sizeBytes": 17728,
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.fun.coinflip-1.0.0.mcplugin",
+    "revoked": false,
+    "iconUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/icons/com.minichat.fun.coinflip.png",
+    "rating": 4.6,
+    "ratingCount": 8
+  },
+  {
+    "id": "com.minichat.fun.icebreaker",
+    "name": "Icebreaker",
+    "version": "1.0.0",
+    "author": "MiniChat Team",
+    "description": "Nie wieder Funkstille: /icebreaker oder der ❄️-Button im +-Menü wirft eine zufällige Gesprächsfrage in den Chat — von tiefgründig bis albern.",
+    "apiVersion": 1,
+    "minAppVersion": 31,
+    "permissions": [
+      "ui",
+      "chat.send"
+    ],
+    "category": "fun",
+    "downloads": 0,
+    "sha256": "17d1da2e7fd75d2c8efc55635f77c549e7aaccfa7de90132794515dd38006825",
+    "sizeBytes": 22074,
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.fun.icebreaker-1.0.0.mcplugin",
+    "revoked": false,
+    "iconUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/icons/com.minichat.fun.icebreaker.png",
+    "rating": 4.7,
+    "ratingCount": 9
+  },
+  {
+    "id": "com.minichat.tools.morse",
+    "name": "Morse-Code",
+    "version": "1.0.0",
+    "author": "MiniChat Team",
+    "description": "Funker-Feeling: /morse Hallo übersetzt zu Morse-Code, /morse .... .- .-.. .-.. --- zurück zu Text. Oder Nachricht gedrückt halten → 📡 Morse.",
+    "apiVersion": 1,
+    "minAppVersion": 31,
+    "permissions": [
+      "ui",
+      "chat.send"
+    ],
+    "category": "tools",
+    "downloads": 0,
+    "sha256": "1e37d086880b478a2db78c2ed8653184e3f8c1b654327c1da055354fb127d7da",
+    "sizeBytes": 15197,
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.tools.morse-1.0.0.mcplugin",
+    "revoked": false,
+    "iconUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/icons/com.minichat.tools.morse.png",
+    "rating": 4.5,
+    "ratingCount": 6
+  },
+  {
+    "id": "com.minichat.theme.aurora",
+    "name": "Aurora Borealis",
+    "version": "1.0.0",
+    "author": "MiniChat Team",
+    "description": "Polarlicht für deine Chats: Aurora Night taucht alles in tanzendes Grün-Violett über arktischem Dunkelblau, Aurora Ice bringt die helle Eis-Variante.",
+    "apiVersion": 1,
+    "minAppVersion": 31,
+    "permissions": [
+      "theme"
+    ],
+    "category": "theme",
+    "downloads": 0,
+    "sha256": "606a7e325e1c2e45d99c80fdb62ea12d14a9a101fbff1c1f37438b6f8036b7c8",
+    "sizeBytes": 27499,
+    "downloadUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/plugins/com.minichat.theme.aurora-1.0.0.mcplugin",
+    "revoked": false,
+    "iconUrl": "https://raw.githubusercontent.com/minichatsupport/MiniChat-Plugin-Store/main/icons/com.minichat.theme.aurora.png",
+    "rating": 4.8,
+    "ratingCount": 11
   }
 ]
